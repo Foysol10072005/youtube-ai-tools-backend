@@ -1,1 +1,13 @@
-
+{
+  "name": "youtube-ai-tools-backend",
+  "version": "1.0.0",
+  "main": "api/ai-tools.js",
+  "scripts": {
+    "start": "node api/ai-tools.js"
+  },
+  "dependencies": {
+    "openai": "^4.29.0",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module"
+}
